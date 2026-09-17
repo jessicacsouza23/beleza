@@ -12,7 +12,7 @@
  * ============================================================
  */
 
-const SITE_CONFIG = {
+window.SITE_CONFIG = {
 
   // ---------- IDENTIDADE ----------
   business: {
@@ -111,14 +111,14 @@ const SITE_CONFIG = {
   // Cada item representa um espaço de imagem. Basta trocar o "icon" por uma
   // foto real (ver README.md, seção "Substituindo pelas fotos reais").
   gallery: [
-    { icon: "ambiente", label: "Ambiente" },
+    { photo: "img/hero-spa.jpg", label: "Ambiente" },
     { icon: "spaCabelo", label: "Spa dos cabelos" },
     { photo: "img/galeria-massagem.jpg", label: "Massagem" },
     { icon: "limpeza", label: "Cuidados com a pele" },
-    { icon: "detalhe", label: "Detalhes do espaço" },
+    { photo: "img/sobre-ambiente.jpg", label: "Detalhes do espaço" },
     { icon: "recepcao", label: "Atendimento" },
     { icon: "spaPes", label: "Spa dos pés" },
-    { icon: "autocuidado", label: "Autocuidado" }
+    { photo: "img/destaque-momento.jpg", label: "Autocuidado" }
   ],
 
   // ---------- DEPOIMENTOS ----------

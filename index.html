@@ -153,10 +153,6 @@
       <p data-field="contactSection.text">Entre em contato e agende seu horário.</p>
 
       <div class="contact-channels">
-        <a href="#" data-whatsapp class="contact-channel">
-          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.5 8.5 0 0 1-12.4 7.5L3 20l1.1-5.4A8.5 8.5 0 1 1 21 11.5Z"/></svg>
-          WhatsApp
-        </a>
         <a href="#" data-instagram-link-only class="contact-channel">
           <svg viewBox="0 0 24 24" fill="none" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg>
           <span data-instagram>@essenzabeauty</span>
@@ -165,9 +161,16 @@
           <svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
           <span data-field="contact.address">Rua Exemplo, 123 — São Paulo/SP</span>
         </span>
+        <span class="contact-channel">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg>
+          <span id="contact-hours-today"></span>
+        </span>
       </div>
 
-      <a href="#" data-whatsapp class="btn btn-light">Agendar pelo WhatsApp</a>
+      <div class="contact-cta">
+        <p class="contact-cta-label">Prefere resolver tudo em uma conversa rápida?</p>
+        <a href="#" data-whatsapp class="btn btn-light">Agendar pelo WhatsApp</a>
+      </div>
     </div>
   </section>
 

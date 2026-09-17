@@ -127,8 +127,13 @@
 
   function renderHours() {
     const list = document.getElementById("hours-list");
-    if (!list) return;
-    list.innerHTML = cfg.hours.map((h) => `<li><span>${h.dias}</span><span>${h.horario}</span></li>`).join("");
+    if (list) {
+      list.innerHTML = cfg.hours.map((h) => `<li><span>${h.dias}</span><span>${h.horario}</span></li>`).join("");
+    }
+    const summary = document.getElementById("contact-hours-today");
+    if (summary && cfg.hours[0]) {
+      summary.textContent = `${cfg.hours[0].dias}, ${cfg.hours[0].horario}`;
+    }
   }
 
   function renderMap() {
