@@ -32,12 +32,12 @@ window.SITE_CONFIG = {
     whatsappDefaultMessage: "Olá! Gostaria de conhecer os serviços e agendar um horário.",
     instagramHandle: "@essenzabeauty",
     instagramUrl: "https://instagram.com/essenzabeauty",
-    address: "Rua Exemplo, 123 — São Paulo/SP",
+    address: "Av. Imperador, 1090 — São Paulo/SP",
     // Link "Como chegar" — trocar pelo link real do Google Maps quando disponível
-    mapsDirectionsUrl: "https://maps.google.com/?q=Rua+Exemplo+123+São+Paulo+SP",
+    mapsDirectionsUrl: "https://www.google.com/maps/dir/?api=1&destination=Av.%20Imperador%2C%201090%2C%20S%C3%A3o%20Paulo%2C%20SP",
     // Cole aqui a URL de incorporação (embed) do Google Maps quando tiver o endereço real.
     // Enquanto estiver vazio, o site mostra um espaço reservado elegante no lugar do mapa.
-    mapsEmbedUrl: ""
+    mapsEmbedUrl: "https://www.google.com/maps?q=Av.%20Imperador%2C%201090%2C%20S%C3%A3o%20Paulo%2C%20SP&output=embed"
   },
 
   hours: [

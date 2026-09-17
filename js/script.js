@@ -140,7 +140,7 @@
     const mapBox = document.getElementById("location-map");
     if (!mapBox) return;
     if (cfg.contact.mapsEmbedUrl) {
-      mapBox.innerHTML = `<iframe src="${cfg.contact.mapsEmbedUrl}" loading="lazy" title="Mapa de localização"></iframe>`;
+      mapBox.innerHTML = `<iframe src="${cfg.contact.mapsEmbedUrl}" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Mapa de localização — ${cfg.contact.address}"></iframe>`;
     } else {
       mapBox.innerHTML = `${iconSvg("ambiente")}<span class="frame-label" style="position:static;margin-top:14px;">Mapa em breve</span>`;
       mapBox.style.flexDirection = "column";
